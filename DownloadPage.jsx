@@ -5,7 +5,7 @@ import bgVideo from "./src/assets/background.mp4";
 export default function DownloadPage() {
   const videoRef=useRef(null);
 
-  const downloadLink ="https://drive.google.com/file/d/12pd4Go8ESU2OekxvL1F1fStvxs0rONt9/view?usp=drive_link";
+  const downloadLink =import.meta.env.VITE_DRIVE_URL;
 
     
   return (
